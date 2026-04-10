@@ -70,7 +70,7 @@ const Footer = () => {
                 <FaLinkedinIn className="w-5 h-5 text-white" />
               </a>
 
-              <a  className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110">
+              <a  href="https://www.youtube.com/@techbro31" className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110">
                 <FaYoutube className="w-5 h-5 text-white" />
               </a>
 
