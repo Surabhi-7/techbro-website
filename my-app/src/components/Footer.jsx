@@ -53,7 +53,7 @@ const Footer = () => {
                 <FaFacebookF className="w-5 h-5 text-white" />
               </a>
 
-              <a href="#" className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110">
+              <a href="ttps://twitter.com/techbro31" className="w-10 h-10 bg-gray-800 hover:bg-red-600 rounded-lg flex items-center justify-center transition-all duration-300 hover:scale-110">
                 <FaTwitter className="w-5 h-5 text-white" />
               </a>
 
