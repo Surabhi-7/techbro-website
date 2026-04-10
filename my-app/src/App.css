@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: #000000;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0f0f10;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #dc2626;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ef4444;
+}
+
+/* Selection */
+::selection {
+    background-color: #dc2626;
+    color: white;
+}
+
+/* Smooth animations */
+* {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, transform;
+    transition-duration: 200ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+button, a, input, textarea, select {
+    transition-property: all;
+}
+
+/* Performance optimization */
+.App {
+    will-change: scroll-position;
+}
+
+/* Focus visible for accessibility */
+*:focus-visible {
+    outline: 2px solid #dc2626;
+    outline-offset: 2px;
+}
+
+/* Prevent horizontal scroll */
+body {
+    overflow-x: hidden;
+}

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.fire-particle {
+  position: fixed;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff3b3b, #ff0000, transparent);
+  box-shadow: 
+    0 0 10px #ff0000,
+    0 0 20px #ff0000,
+    0 0 40px #ff0000;
+  filter: blur(6px);
+  z-index: 9999;
+}
+body {
+  cursor: none;
+}
